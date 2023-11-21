@@ -8,6 +8,7 @@ import Layanankonsultasi from './pages/Layanankonsultasi';
 import Pemesanan from './pages/Pemesanan';
 import Pusatbantuan from './pages/Pusatbantuan';
 import Tentangkami from './pages/Tentangkami';
+import Informasi from './pages/Informasi';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Pemesanan" Component={Pemesanan} />
           <Route path="/Pusatbantuan" Component={Pusatbantuan} />
           <Route path="/Layanankonsultasi" Component={Layanankonsultasi} />
+          <Route path="/Informasi" Component={Informasi} />
         </Routes>
 
         {/* <FooterComponents/> */}
