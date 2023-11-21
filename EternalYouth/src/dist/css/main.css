@@ -56,4 +56,43 @@ button:hover{
 h1{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+    font-size:  50px; 
+    font-weight: bold;
+    margin: 20px;
+    color: #113946;
+}
 
+.P1{
+    text-align: justify;
+    margin-top: 20px;
+    color: #113946;
+}
+.ctn1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.ctn1{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+.info{
+    font-size: 32px;
+    color: #113946;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40%;
+    padding-left:  10%;
+
+}
+
+.card1{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.cardtext1{
+    text-align: justify;
+}
