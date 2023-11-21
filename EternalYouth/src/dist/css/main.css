@@ -1,0 +1,59 @@
+*{
+    font-family: "Hermeneus One", sans-serif;
+}
+
+:root{
+    --primary-color: #FFF2D8;
+    --secondary-color: #EAD7BB;
+    --color-text: #000000;
+    --navbar-color: #113946;
+    --navbar-color-text: #FFD26C;
+}
+
+.navbar{
+    padding: 15px 0 15px 0;
+    background: var(--navbar-color);
+    
+}
+
+img{
+    margin-left: -100px;
+    width: 100%;
+}
+
+.NavDropdown.items{
+    background-color: #000000;
+    color: #000000;
+}
+
+.navbar  .nav-link a{
+    color: var(--navbar-color-text);
+}
+
+.navbar ,.nav-link a:hover {
+    color: var(--primary-color);
+}
+
+
+
+button{
+    margin-left: 500px;
+    background-color: black;
+    color: var(--navbar-color-text);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+button:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+h1{
+    text-align: center;
+}
+
