@@ -10,20 +10,24 @@
     --navbar-color-text: #FFD26C;
 }
 
+
+body{
+    background-color:#EAD7BB;
+}
+
 .navbar{
     padding: 15px 0 15px 0;
     background: var(--navbar-color);
     
 }
 
-img{
-    margin-left: -100px;
+.logo{
+    margin-left: -5px;
     width: 250px;
 }
 
-.NavDropdown.items{
-    background-color: #000000;
-    color: #000000;
+.navbar .NavDropdown.items a{
+    background-color: #EAD7BB;
 }
 
 .navbar  .nav-link a{
@@ -38,7 +42,7 @@ img{
 .btn-login{
     width: 40px;
     height: 35px;
-    margin-left: 1130px ;
+    margin-left: 990px ;
     position: absolute;
     transition: transform .4s;
 }
@@ -51,7 +55,7 @@ img{
 .btn-keranjang{
     width: 40px;
     height: 35px;
-    margin-left: 1180px ;
+    margin-left: 1050px ;
     position: absolute;
     transition: transform .4s;
 }
@@ -62,23 +66,123 @@ img{
 
 
 .search{
+    width: 10%;
     border-radius: 10px;
-    width: 200px;
-    margin-left: 400px;
+    margin-left: 110px;
 }
 
-
-button:hover{
-    color: white;
-    transform: scale(1.2);
+.text-judul-pemesanan{
+    font-weight: bold;
 }
 
-h1{
+.text-left{
+    text-align: left;
+    font-size:  50px; 
+    font-weight: bold;
+    margin: 20px;
+    color: #113946;
+}
+
+.P1{
+    text-align: justify;
+    margin-top: 20px;
+    color: #113946;
+}
+.ctn1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.ctn1{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+.info{
+    font-size: 32px;
+    color: #113946;
+    font-weight: bold;
     text-align: center;
+    margin-top: 40%;
+    padding-left:  10%;
+
 }
 
-body{
-    background-image: url(/bacground_home.png);
-    background-size: cover;
-    
+.card1{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.cardtext1{
+    text-align: justify;
+}
+
+.kalku{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* pemesanan */
+
+.baris1 img{
+    margin-top: 30px;
+}
+.baris2 img{
+    margin-top: 30px;
+}
+.baris3 img{
+    margin-top: 30px;
+}
+.baris4 img{
+    margin-top: 30px;
+}
+
+.pilih{
+    width: 240px;
+    height: 45px;
+    transition: transform .4s;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #113946;
+    color: #FFD26C;
+    margin: 20px;
+}
+
+.kalku1{
+    width: 240px;
+    height: 45px;
+    transition: transform .4s;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #113946;
+    color: #FFD26C;
+    margin: 20px;
+}
+
+.kalku2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+.card2 img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+  }
+
+.card2{
+    text-align: center;
+    margin: 20px;
+
+}
+
+.judul2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
