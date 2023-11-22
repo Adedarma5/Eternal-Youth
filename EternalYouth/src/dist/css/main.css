@@ -28,25 +28,45 @@ img{
 
 .navbar  .nav-link a{
     color: var(--navbar-color-text);
+    font-size: 20px;
 }
 
 .navbar ,.nav-link a:hover {
     color: var(--primary-color);
 }
 
-
-
-button{
-    margin-left: 500px;
-    background-color: black;
-    color: var(--navbar-color-text);
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 10px;
+.btn-login{
+    width: 40px;
+    height: 35px;
+    margin-left: 1130px ;
+    position: absolute;
     transition: transform .4s;
 }
+
+.btn-login:hover{
+    transform: scale(1.4);
+}
+
+
+.btn-keranjang{
+    width: 40px;
+    height: 35px;
+    margin-left: 1180px ;
+    position: absolute;
+    transition: transform .4s;
+}
+
+.btn-keranjang:hover{
+    transform: scale(1.4);
+}
+
+
+.search{
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 400px;
+}
+
 
 button:hover{
     color: white;
@@ -56,43 +76,9 @@ button:hover{
 h1{
     text-align: center;
 }
-.text-left{
-    text-align: left;
-    font-size:  50px; 
-    font-weight: bold;
-    margin: 20px;
-    color: #113946;
-}
 
-.P1{
-    text-align: justify;
-    margin-top: 20px;
-    color: #113946;
-}
-.ctn1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-.ctn1{
-    background-color: rgba(255, 255, 255, 0.733);
-}
-.info{
-    font-size: 32px;
-    color: #113946;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 40%;
-    padding-left:  10%;
-
-}
-
-.card1{
-    margin-top: 20%;
-    margin-left: 10%;
-}
-
-.cardtext1{
-    text-align: justify;
+body{
+    background-image: url(/bacground_home.png);
+    background-size: cover;
+    
 }
