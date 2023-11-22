@@ -1,15 +1,14 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
+import { Navbar, Container, Nav, NavDropdown, Row, Form, Col } from "react-bootstrap"
 
 const NavbarComponents = () => {
   return (
     <div>
         <Navbar xpand="lg" >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <img src="public/logo.png"></img>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-link" > 
- 
           <Nav.Link href="Homepage">Home</Nav.Link>
           <Nav.Link href="Layanankonsultasi">Layanan Konsultasi</Nav.Link>
           <Nav.Link href="Pemesanan">Pemesanan</Nav.Link>
@@ -17,15 +16,26 @@ const NavbarComponents = () => {
               <NavDropdown.Item href="TentangKami">Tentang Kami</NavDropdown.Item>
               <NavDropdown.Item href="PusatBantuan">Pusat Bantuan</NavDropdown.Item>
             </NavDropdown>
+            
+        <Row>
+          <Col xs="auto">
+            <Form.Control
+              type="text"
+              placeholder="Cari sesuatu"
+              className=" search"
+              />
+              </Col>
+              </Row>
+              <input type="image" src="/login.png" alt="pemesanan" className="btn-login" href="/pages/pemesanan"></input>
+              <input type="image" src="/keranjang.png" alt="pemesanan" className="btn-keranjang" href="/pages/pemesanan"></input>
+              {/* <img src="public/keranjang.png" className="btn-keranjang"></img> */}
           </Nav>
 
 
-          <div>
-            <button>Login</button>
-          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
     </div>
   )
 }
