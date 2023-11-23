@@ -10,9 +10,8 @@
     --navbar-color-text: #FFD26C;
 }
 
-
 body{
-    background-color:#EAD7BB;
+    background-color: #F4EAE0;
 }
 
 .navbar{
@@ -22,7 +21,7 @@ body{
 }
 
 .logo{
-    margin-left: -5px;
+    margin-left: -100px;
     width: 250px;
 }
 
@@ -42,7 +41,7 @@ body{
 .btn-login{
     width: 40px;
     height: 35px;
-    margin-left: 990px ;
+    margin-left: 1130px ;
     position: absolute;
     transition: transform .4s;
 }
@@ -55,7 +54,7 @@ body{
 .btn-keranjang{
     width: 40px;
     height: 35px;
-    margin-left: 1050px ;
+    margin-left: 1180px ;
     position: absolute;
     transition: transform .4s;
 }
@@ -66,15 +65,173 @@ body{
 
 
 .search{
-    width: 10%;
     border-radius: 10px;
-    margin-left: 110px;
+    width: 200px;
+    margin-left: 400px;
 }
 
-.text-judul-pemesanan{
+button{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: var(--navbar-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    inline-size: none;
+    transition: transform .4s;
+}
+
+
+button:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+/* Beranda */
+
+div .content-atas{
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 40px;
+}
+
+.text-home{
+    font-size: 40px;
     font-weight: bold;
 }
 
+
+
+.background{
+    width: 106.6%;
+    margin-left: -100px;
+    
+    
+}
+
+.text-antara-conten{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.text-bawah-conten{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-weight: bold;
+    color: black;
+}
+
+.bg-lavender{
+    width: 48%;
+    margin-left: 785px;
+    margin-top: -25px;
+}
+.bg-lavender2{
+    width: 15%;
+    margin-left: 3px;
+    margin-top: -240px;
+}
+
+
+.conten1{
+    margin-top: -555px;
+    margin-left: 200px;
+}
+
+.conten2{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+/* Layanan konsultasi */
+
+.background-layanan{
+    width: 100%;
+}
+
+header{
+    margin-top: -620px;
+}
+
+.penawaran{
+    margin-left: 755px;
+    margin-top: -140px;
+    width: 50%;
+}
+
+.text-atas{
+    position: absolute;
+    margin-top: -420px;
+}
+
+.dokter{
+    margin-top: -240px;
+    width: 16%;
+    background-repeat: no-repeat;
+}
+
+/* gambar yang di dalam card dokter */
+
+.baris-dokter{
+    position: absolute;
+    margin-top: -460px;
+}
+
+.dokter1{
+    margin-left: 5px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+.judul-dokter{
+    font-weight: bold;
+    margin-left: 98px;
+    margin-top: -120px;
+}
+.text-dokter{
+    margin-left: 98px;
+    margin-top: -10px;
+}
+
+.dokter3{
+    width: 44%;
+    margin-top: 10px;
+}
+
+.judul-dokter3{
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -120px;
+}
+.text-dokter3{
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+
+
+.container{
+    justify-content: space-around;
+}
+
+.panduan{
+    background-color: #f4eae0;
+    padding: 50px;
+    background-size: 150px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.mb-4{
+    font-weight: bold;
+}
+
+/* informasi */
 .text-left{
     text-align: left;
     font-size:  50px; 
