@@ -9,6 +9,10 @@ import Pemesanan from './pages/Pemesanan';
 import Pusatbantuan from './pages/Pusatbantuan';
 import Tentangkami from './pages/Tentangkami';
 import Informasi from './pages/Informasi';
+import Kalkulator from './pages/Kalkulator';
+import Payment from './pages/Payment';
+import LoginPage from './pages/LoginPage';
+import SignUpPage from './pages/SignUpPage';
 
 
 
@@ -25,6 +29,11 @@ function App() {
           <Route path="/Pusatbantuan" Component={Pusatbantuan} />
           <Route path="/Layanankonsultasi" Component={Layanankonsultasi} />
           <Route path="/Informasi" Component={Informasi} />
+          <Route path="/Kalkulator" Component={Kalkulator} />
+          <Route path="/Payment" Component={Payment} />
+          <Route path="/LoginPage" Component={LoginPage} />
+          <Route path="/SignUpPage" Component={SignUpPage}/>
+          <Route path="/Tentangkami" Component={Tentangkami}/>
         </Routes>
 
         {/* <FooterComponents/> */}
