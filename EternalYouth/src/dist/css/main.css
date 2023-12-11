@@ -179,7 +179,7 @@ div .content-atas{
 
 .kategori-kulit{
   display: flex;
-  padding: 30px;
+  padding: 10px;
   margin-top: 50px;
   margin-left: 38px;
 }
@@ -247,7 +247,7 @@ header{
 }
 
 .dokter{
-    margin-top: -240px;
+    margin-top: -80px;
     width: 16%;
     background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ header{
 /* gambar yang di dalam card dokter */
 .baris-dokter{
   position: absolute;
-  margin-top: -960px;
+  margin-top: -200px;
   margin-left: 100px;
 }
 
@@ -267,7 +267,7 @@ margin-left: 100px;
 .judul-dokter{
   font-weight: bold;
   margin-left: 98px;
-  margin-top: -120px;
+  margin-top: 10px;
 }
 .text-dokter{
   margin-left: 98px;
@@ -282,7 +282,7 @@ margin-left: 100px;
 .judul-dokter3{
   font-weight: bold;
   margin-left: 100px;
-  margin-top: -120px;
+  margin-top: 10px;
 }
 .text-dokter3{
   margin-left: 100px;
@@ -1116,6 +1116,7 @@ input {
   align-items: center;
   padding: 15px;
   border: 1px solid #ddd;
+  background-color: white;
   margin-bottom: 20px;
   border-radius: 12px;
   transition: transform 0.3s ease-in-out;
@@ -1155,6 +1156,7 @@ input {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  
 }
 
 
@@ -1250,7 +1252,7 @@ input[type="checkbox"] {
     background-image: url("Rectangle 6.png");
     margin-top: -400px;
     width: 50rem;   
-    margin-left: 250px;
+    margin-left: 150px;
     position: absolute;
     text-align: center;
 }
