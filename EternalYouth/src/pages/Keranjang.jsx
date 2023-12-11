@@ -62,6 +62,9 @@ const Keranjang = () => {
     
       return (
         <div className="shopping-cart" style={{backgroundColor: '#F4EAE0'}}>
+          <img src="public/kosong.png" style={{position: 'absolute', marginLeft: '-1253px', marginTop: '250px'}}></img>
+          <img src="public/kosong.png" style={{position: 'absolute', marginLeft: '-1253px', marginTop: '700px'}}></img>
+          <img src="public/kosong.png" style={{position: 'absolute', marginLeft: '-1253px', marginTop: '250px'}}></img>
             <img src="/Logo2.png" className='logo-keranjang'></img><h3 className='text-keranjang'><span className='garis'>|</span> Keranjang {'<'}</h3>
           <div className="search-container">
             <input
@@ -85,7 +88,7 @@ const Keranjang = () => {
                     <span className="product-name">{item.name}</span>
                     <span className="product-price">${item.price}</span>
                     <div className="quantity-container">
-                      <button onClick={() => decreaseQuantity(item.id)}>-</button>
+                      <button onClick={() => decreaseQuantity(item.id)} >-</button>
                       <span>{item.quantity || 0}</span>
                       <button onClick={() => addToCart(item)}>+</button>
                     </div>

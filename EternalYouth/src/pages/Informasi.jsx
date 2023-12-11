@@ -48,7 +48,7 @@ const Informasi = () => {
         </Col>
         <Col sm={3}><h5 className='info'>Informasi lainnya</h5>
         <Card style={{ width: '18rem' }} className='card1'>
-      <Card.Img variant="top" src="/image-81  .png" />
+      <Card.Img variant="top" src="/image 90.png" />
       <Card.Body>
         <Card.Title>Manfaat Perawatan Rambut</Card.Title>
         <Card.Text className='cardtext1'>
@@ -70,7 +70,7 @@ const Informasi = () => {
     </Card>
 
     <Card style={{ width: '18rem' }} className='card1'>
-      <Card.Img variant="top" src="/image 92.png" />
+      <Card.Img variant="top" src="/basuh.png" />
       <Card.Body>
         <Card.Title>Tips Perawatan Wajah Berminyak dan Berjerawat</Card.Title>
         <Card.Text className='cardtext1'>
@@ -81,7 +81,7 @@ const Informasi = () => {
     </Card>
 
     <Card style={{ width: '18rem' }} className='card1'>
-      <Card.Img variant="top" src="/image 91.png" />
+      <Card.Img variant="top" src="/image 90.png" />
       <Card.Body>
         <Card.Title>Manfaat Perawatan Rambut</Card.Title>
         <Card.Text className='cardtext1'>

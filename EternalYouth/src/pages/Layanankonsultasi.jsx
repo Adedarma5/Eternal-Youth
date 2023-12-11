@@ -48,7 +48,7 @@ const Layanankonsultasi = () => {
             <Col className='text-tengah'>
             <h1 style={{ fontWeight: 'bold', marginTop: '-360px' }}>Rekomendasi Dokter Kami</h1>
             <p>Gabung dan konsultasikan Pada Dokter Andalan Kami</p>
-            <Card style={{ width: '18rem', height: '150px',outline: 'solid 1px', outlineColor: '#CFC249', marginTop: '40px' }} className='dokter-card'>
+            <Card style={{ width: '18rem', height: '150px',outline: 'solid 1px', outlineColor: '#CFC249', marginTop: '50px' }} className='dokter-card'>
             {/* <Card.Img className="dokter1"  src="/dokter.png" /> */}
               <Card.Body>
                 <Card.Title className='judul-dokter'>dr. Bejo</Card.Title>
@@ -60,7 +60,7 @@ const Layanankonsultasi = () => {
             <Card style={{ width: '18rem',height: '150px', outline: 'solid 1px',  outlineColor: '#CFC249', marginLeft: '400px', marginTop: '-150px'}}>
             {/* <Card.Img className="dokter1" variant="top" src="/dk2.png" /> */}
               <Card.Body>
-                <Card.Title className='judul-dokter'>dr. Satria Andika</Card.Title>
+                <Card.Title className='judul-dokter'>dr. Satria </Card.Title>
                 <Card.Text className='text-dokter'>
                   Dokter Spesialis Kulit
                 </Card.Text>
@@ -79,7 +79,7 @@ const Layanankonsultasi = () => {
           </Row>
         </Container>
       
-      <div className="panduan" style={{backgroundImage: 'url(bgDaisy.png)', marginTop: '-20px'}}>
+      <div className="panduan" style={{backgroundImage: 'url(bgDaisy.png)', marginTop: '-120px'}}>
         <Container>
           <Row>
             <Col>

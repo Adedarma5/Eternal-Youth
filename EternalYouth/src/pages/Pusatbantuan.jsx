@@ -51,37 +51,39 @@ const Pusatbantuan = () => {
         </Container>
 
         <Container>
-          <Card style={{ width: '70rem', marginTop:'50px', marginLeft: '90px'}}>
+          <Card style={{ width: '70rem', marginTop:'50px'}}>
             <Card.Body style={{ display: 'flex', flexDirection: 'row-reverse', alignItems: 'center' }}>
               <div style={{ flex: '1', marginLeft: '100px'}}>
                 <Card.Title>Pertanyaan Umum</Card.Title>
                 {/* <Card.Text>{description}</Card.Text> */}
               </div>
-              <Card.Img variant="top" src="/Q and a.png" style={{ width: '50px', height: '50px', marginLeft:'40px'}}/>
+              <Card.Img variant="top" src="/Q and a.png" style={{ width: '50px', height: '50px'}}/>
             </Card.Body>
           </Card>
-          <Card style={{ width: '70rem', marginTop:'50px', marginLeft: '90px' }}>
+          <Card style={{ width: '70rem', marginTop:'50px' }}>
             <Card.Body style={{ display: 'flex', flexDirection: 'row-reverse', alignItems: 'center' }}>
               <div style={{ flex: '1', marginLeft: '100px'}}>
                 <Card.Title>Panduan</Card.Title>
                 {/* <Card.Text>{description}</Card.Text> */}
               </div>
-              <Card.Img variant="top" src="/Guide.png" style={{ width: '50px', height: '50px', marginLeft:'40px'}}/>
+              <Card.Img variant="top" src="/Guide.png" style={{ width: '50px', height: '50px'}}/>
             </Card.Body>
           </Card>
-          <Card style={{ width: '70rem', marginTop:'50px', marginLeft: '90px'}}>
+          <Card style={{ width: '70rem', marginTop:'50px'}}>
             <Card.Body style={{ display: 'flex', flexDirection: 'row-reverse', alignItems: 'center' }}>
               <div style={{ flex: '1', marginLeft: '100px'}}>
                 <Card.Title>Komunitas</Card.Title>
                 {/* <Card.Text>{description}</Card.Text> */}
               </div>
-              <Card.Img variant="top" src="/Conversation.png" style={{ width: '50px', height: '50px', marginLeft:'40px'}}/>
+              <Card.Img variant="top" src="/Conversation.png" style={{ width: '50px', height: '50px',}}/>
             </Card.Body>
           </Card>
           {/* <img src="public/Flat_lay.png"></img> */}
         </Container>
       </Row>
     </Container>
+    
+    <img  src="public/Flat_lay.png" style={{marginTop: '-400px'}}></img>
   </div>
   );
 }

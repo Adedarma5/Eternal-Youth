@@ -1,10 +1,10 @@
 // Chat.js
 import React, { useState } from 'react';
-
 import { Link } from 'react-router-dom';
+import { FaRegPaperPlane } from 'react-icons/fa'; // Import icon from react-icons library
 
 const Chat = () => {
-    const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
 
   const getCurrentTime = () => {
@@ -36,9 +36,9 @@ const Chat = () => {
       <h3 className="judul-chat">Chats</h3>
       <div className="chat-list">
         <div className="chat-item active">
-          <img src="https://placekitten.com/40/40" alt="Chat" />
-          <div className="chat-info">
-            <span>dr. Siska Mante</span>
+          <img src="/foto-chat.png" alt="Chat" />
+          <div >
+            <span className="chat-info" >dr. Siska Mante</span>
             {messages.length > 0 && (
               <span className="last-message-time">
                 {messages[messages.length - 1].time}  
@@ -47,14 +47,9 @@ const Chat = () => {
           </div>
         </div>
         <div className="chat-item active-pertama">
-          <img src="https://placekitten.com/40/40" alt="Chat" />
-          <div className="chat-info">
-            <span>dr. Siska Mante</span>
-            {messages.length > 0 && (
-              <span className="last-message-time">
-                {messages[messages.length - 1].time}  
-              </span>
-            )}
+          <img src="/foto-chat2.png" alt="Chat-pertama" />
+          <div >
+            <span className="chat-info2">dr. Ratna Santika</span>
           </div>
         </div>
         {/* Tambahkan item chat lainnya sesuai kebutuhan */}
@@ -64,10 +59,11 @@ const Chat = () => {
     <div className="chat-container">
       <div className="chat-header">
         <img
-          src="https://placekitten.com/40/40" // Ganti dengan URL foto profil teman chat
+          src="/foto-chat.png" // Ganti dengan URL foto profil teman chat
           alt="Friend"
         />
-        <span>Friend 1</span>
+        <span className='text-header'>dr. Siska Mante</span>
+        <span className='kode'>Kode Konsultasi: 2217</span>
       </div>
       <div className="messages">
         {messages.map((message, index) => (
@@ -79,12 +75,15 @@ const Chat = () => {
       </div>
       <div className="input-container" style={{ backgroundColor: '#113946' }}>
         <input
+          className='box-pesan'
           type="text"
           placeholder="Tulis Pesan"
           value={newMessage}
           onChange={handleInputChange}
         />
-        <button onClick={handleSendMessage}>Send</button>
+        <a className="send-button" onClick={handleSendMessage}>
+          <FaRegPaperPlane />
+        </a>
       </div>
     </div>
   </div>

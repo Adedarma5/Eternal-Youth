@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { Link } from 'react-router-dom';
 import { Container, Card, Button} from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -73,24 +75,19 @@ const Homepage = () => {
       <img style={{marginLeft: '430px', position: 'absolute', marginTop: '150px'}} src="public/bgDaisy.png"></img>
       <h1 className="text-bawah-kulit">Produk Terbaru</h1> 
       <img style={{position: 'absolute', marginTop: '500px'}} src="public/bg-produk.png"></img>
-    <Carousel className='carousel' data-bs-theme="dark" >
-      <Carousel.Item>
+    <Carousel className='carousel' data-bs-theme="dark" style={{color: 'black'}} >
+      <Carousel.Item >
         <img
           className=" slide d-block w-90"
           src="public/slide.png"
         />
-        <Carousel.Caption>
-          
-        </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item style={{color: 'black'}}>
         <img
           className="slide d-block w-90"
           src="public/slide.png"
           alt="Second slide"
         />
-        <Carousel.Caption>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -98,9 +95,6 @@ const Homepage = () => {
           src="public/slide.png"
           alt="Third slide"
         />
-        <Carousel.Caption>
-        
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
 
@@ -113,7 +107,7 @@ const Homepage = () => {
 
     <Container style={{display: 'flex', marginTop: '100px'}}>
     <Card style={{ width: '25rem', backgroundColor: '#EAD7BB' }}>
-      <Card.Img variant="top" src="/bpom.png" style={{width: '350px', marginTop: '10px', marginLeft: '23px'}}/>
+      <Card.Img variant="top" src="/bpom.png" style={{width: '300px', marginTop: '10px', marginLeft: '19px'}}/>
       <Card.Body>
         <Card.Title style={{color: '#1B1C57'}}>Cara Mengecek Produk Sudah Resmi BPOM</Card.Title>
         <Card.Text style={{color: 'grey'}}>
@@ -122,12 +116,12 @@ const Homepage = () => {
         <Card.Text style={{color: 'grey', fontSize: '15px'}}>
         Dibaca 8 menit yang lalu
         </Card.Text>
-        <Button  style={{backgroundColor: "#113946",marginLeft: '200px', border: 'none'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none'}}>Baca Lebih Lanjut</a></Button>
+        <Button  style={{backgroundColor: "#113946",marginLeft: '170px', border: 'none', position: 'absolute', marginTop: '48px'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none', fontSize: '13px'}}>Baca Lebih Lanjut</a></Button>
       </Card.Body>
     </Card>
 
     <Card style={{ width: '25rem', marginLeft:'50px', backgroundColor: '#EAD7BB'  }}>
-      <Card.Img variant="top" src="/perawatan-wajah.png" style={{width: '350px', marginTop: '10px', marginLeft: '23px'}} />
+      <Card.Img variant="top" src="/perawatan-wajah.png" style={{width: '300px', marginTop: '10px', marginLeft: '19px'}} />
       <Card.Body>
         <Card.Title style={{color: '#1B1C57'}}>Perawatan Wajah - Tipe Kulit, Tips, dan Langkah Perawatan</Card.Title>
         <Card.Text style={{color: 'grey'}}>
@@ -136,12 +130,12 @@ const Homepage = () => {
         <Card.Text style={{color: 'grey', fontSize: '15px'}}>
         Dibaca 8 menit yang lalu
         </Card.Text>
-        <Button  style={{backgroundColor: "#113946",marginLeft: '200px', border: 'none'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none'}}>Baca Lebih Lanjut</a></Button>
+        <Button  style={{backgroundColor: "#113946",marginLeft: '170px', border: 'none' ,position: 'absolute', marginTop: '25px'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none', fontSize: '13px'}}>Baca Lebih Lanjut</a></Button>
       </Card.Body>
     </Card>
 
     <Card style={{ width: '25rem', marginLeft:'50px', backgroundColor: '#EAD7BB'  }}>
-      <Card.Img variant="top" src="/merawat-wajah.png" style={{width: '350px', marginTop: '10px', marginLeft: '23px'}} />
+      <Card.Img variant="top" src="/merawat-wajah.png" style={{width: '300px', marginTop: '10px', marginLeft: '19px'}} />
       <Card.Body>
         <Card.Title style={{color: '#1B1C57'}}>Tips Merawat Kesehatan Kulit Wajah & Tubuh Terlengkap yang Perlu Dilakukan!</Card.Title>
         <Card.Text style={{color: 'grey'}}>
@@ -150,12 +144,12 @@ const Homepage = () => {
         <Card.Text style={{color: 'grey', fontSize: '15px'}}>
         Dibaca 8 menit yang lalu
         </Card.Text>
-        <Button  style={{backgroundColor: "#113946",marginLeft: '200px', border: 'none'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none'}}>Baca Lebih Lanjut</a></Button>
+        <Button  style={{backgroundColor: "#113946",marginLeft: '170px', border: 'none'}}><a href='/Informasi' style={{color: 'white', textDecoration: 'none',fontSize: '13px'}}>Baca Lebih Lanjut</a></Button>
       </Card.Body>
     </Card>
     </Container>
 
-    <img style={{marginLeft: '1421px', position: 'absolute', marginTop: '150px'}} src="public/bg-daun.png"></img>
+   
     
     <h1 className="text-bawah-testimoni">Testimoni</h1> 
 
@@ -169,6 +163,7 @@ const Homepage = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+    
 
     <Card style={{ width: '35rem', marginLeft:'195px', backgroundColor: '#EAD7BB'  }}>
       <Card.Img variant="top" src="/foto-testi.png" style={{width: '150px', marginTop: '30px', marginLeft: '190px'}} />
@@ -179,6 +174,7 @@ const Homepage = () => {
       </Card.Body>
     </Card>
     </Container>
+    <img style={{marginLeft: '1421px',  marginTop: '-150px'}} src="public/bg-daun.png"></img>
 
 
     </div>
