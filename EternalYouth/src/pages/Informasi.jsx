@@ -17,7 +17,7 @@ const Informasi = () => {
           {/* Adding the 'text-left' class to align the text to the left */}
           <h1 className="text-left">Tips Memilih Produk Perawatan Wajah Yang Tepat</h1>
           <Container className='ctn1'>
-            <img src="/image 92.png" alt="image 92" />
+            <img src="public/image_94.png" alt="image_94" />
           <p className="P1">Dalam mencari produk perawatan wajah yang tepat, banyak konsumen mengalami kesulitan karena pasar yang penuh dengan berbagai pilihan. Untuk membantu Anda membuat keputusan yang bijak, ada beberapa tips yang dapat diikuti agar Anda dapat memilih produk perawatan wajah yang sesuai dengan kebutuhan kulit Anda. Dengan begitu banyak merek dan klaim yang beredar, memahami jenis kulit Anda, mengidentifikasi kebutuhan khusus, dan memahami bahan-bahan yang terkandung dalam produk dapat menjadi langkah awal yang penting. Artikel ini akan memberikan panduan praktis untuk membantu Anda menavigasi melalui berbagai opsi yang tersedia, sehingga Anda dapat merawat kulit wajah dengan efektif dan sesuai dengan kebutuhan individu Anda.
           </p>
           <h4> 1. Identifikasi Jenis Kulit Anda:</h4>
@@ -48,7 +48,7 @@ const Informasi = () => {
         </Col>
         <Col sm={3}><h5 className='info'>Informasi lainnya</h5>
         <Card style={{ width: '18rem' }} className='card1'>
-      <Card.Img variant="top" src="/image 90.png" />
+      <Card.Img variant="top" src="/image-81  .png" />
       <Card.Body>
         <Card.Title>Manfaat Perawatan Rambut</Card.Title>
         <Card.Text className='cardtext1'>

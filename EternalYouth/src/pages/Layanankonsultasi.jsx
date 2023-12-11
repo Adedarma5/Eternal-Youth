@@ -1,9 +1,11 @@
 import {Container, Row, Col} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
+import '../dist/css/main.css';
 
 const Layanankonsultasi = () => {
   return (
-    <div className='layanan'>
+    <div className='layanan' style={{backgroundColor: '#F4EAE0'}}>
       {/* <h1>Layanan Konsultasi</h1> */}
       <img className="background-layanan" src="public/bg_layanan.png"></img>
       <header className='w-100 min-vh-100 d-flex align-items-center'>
@@ -15,7 +17,10 @@ const Layanankonsultasi = () => {
             dokter kecantikan, rekomendasi perawatan pribadi, produk perawatan kulit <br /> 
             terpercaya, dan skincare berkualitas tinggi. Bergabunglah sekarang!"</p>
             <Col>
+            <Link to="/Chat" >
             <button style={{marginLeft:0}} className='btn-layanan'>Chat Dokter Sekarang</button>
+            </Link>
+
             {/* <img src="" alt="" /> */}
             </Col>
             </Col>
@@ -41,30 +46,30 @@ const Layanankonsultasi = () => {
         <Container>
           <Row className='baris-dokter'>
             <Col className='text-tengah'>
-            <h1 style={{ fontWeight: 'bold', marginTop: '60px' }}>Rekomendasi Dokter Kami</h1>
+            <h1 style={{ fontWeight: 'bold', marginTop: '-360px' }}>Rekomendasi Dokter Kami</h1>
             <p>Gabung dan konsultasikan Pada Dokter Andalan Kami</p>
             <Card style={{ width: '18rem', height: '150px',outline: 'solid 1px', outlineColor: '#CFC249', marginTop: '40px' }} className='dokter-card'>
-            <Card.Img className="dokter1"  src="/dokter1.png" />
+            {/* <Card.Img className="dokter1"  src="/dokter.png" /> */}
               <Card.Body>
-                <Card.Title className='judul-dokter'>dr. blablabla</Card.Title>
+                <Card.Title className='judul-dokter'>dr. Bejo</Card.Title>
                 <Card.Text className='text-dokter'>
                   Dokter Spesialis Kulit
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem',height: '150px', outline: 'solid 1px',  outlineColor: '#CFC249', marginLeft: '400px', marginTop: '-150px'}}>
-            <Card.Img className="dokter1" variant="top" src="/dk2.png" />
+            {/* <Card.Img className="dokter1" variant="top" src="/dk2.png" /> */}
               <Card.Body>
-                <Card.Title className='judul-dokter'>dr. blablabla</Card.Title>
+                <Card.Title className='judul-dokter'>dr. Satria Andika</Card.Title>
                 <Card.Text className='text-dokter'>
                   Dokter Spesialis Kulit
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card style={{ width: '19rem',height:'140px',outline: 'solid 1px', outlineColor: '#CFC249', marginLeft: '800px', marginTop: '-150px'}} >
-            <Card.Img className="dokter3" variant="top" src="/dk3.png" />
+            {/* <Card.Img className="dokter3" variant="top" src="/dk3.png" /> */}
               <Card.Body>
-                <Card.Title className='judul-dokter3'>dr. blablabla</Card.Title>
+                <Card.Title className='judul-dokter3'>dr. Tania Nabila</Card.Title>
                 <Card.Text className='text-dokter3'>
                   Dokter Spesialis Kulit
                 </Card.Text>
