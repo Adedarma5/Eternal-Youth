@@ -49,7 +49,7 @@ const Layanankonsultasi = () => {
             <h1 style={{ fontWeight: 'bold', marginTop: '-360px' }}>Rekomendasi Dokter Kami</h1>
             <p>Gabung dan konsultasikan Pada Dokter Andalan Kami</p>
             <Card style={{ width: '18rem', height: '150px',outline: 'solid 1px', outlineColor: '#CFC249', marginTop: '50px' }} className='dokter-card'>
-            {/* <Card.Img className="dokter1"  src="/dokter.png" /> */}
+            <Card.Img className="dokter1"  src="/dokter1.png" style={{width: '35%'}} />
               <Card.Body>
                 <Card.Title className='judul-dokter'>dr. Bejo</Card.Title>
                 <Card.Text className='text-dokter'>
@@ -58,7 +58,7 @@ const Layanankonsultasi = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem',height: '150px', outline: 'solid 1px',  outlineColor: '#CFC249', marginLeft: '400px', marginTop: '-150px'}}>
-            {/* <Card.Img className="dokter1" variant="top" src="/dk2.png" /> */}
+            <Card.Img className="dokter2" variant="top" src="/dokter2.png" style={{width: '35%', }} />
               <Card.Body>
                 <Card.Title className='judul-dokter'>dr. Satria </Card.Title>
                 <Card.Text className='text-dokter'>
@@ -67,7 +67,7 @@ const Layanankonsultasi = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '19rem',height:'140px',outline: 'solid 1px', outlineColor: '#CFC249', marginLeft: '800px', marginTop: '-150px'}} >
-            {/* <Card.Img className="dokter3" variant="top" src="/dk3.png" /> */}
+            <Card.Img className="dokter3" variant="top" src="/dokter3.png" style={{width: '50%'}} />
               <Card.Body>
                 <Card.Title className='judul-dokter3'>dr. Tania Nabila</Card.Title>
                 <Card.Text className='text-dokter3'>

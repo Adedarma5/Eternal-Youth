@@ -37,7 +37,7 @@ const MyCard = ({ title, description, imageSrc, price }) => {
       
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '60px' }}>
           <p style={{ fontFamily: 'times new roman', margin: 0 }}>{price}</p>
-          <a href="#" className="btn btn-primary" style={{ fontFamily: 'Poppins, sans-serif', backgroundColor: '#113946', width: '90px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <a href="/keranjang" className="btn btn-primary" style={{ fontFamily: 'Poppins, sans-serif', backgroundColor: '#113946', width: '90px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             Beli
           </a>
         </div>
